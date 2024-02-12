@@ -96,7 +96,7 @@ namespace MyNamespace
 
 > The book I am reading approached development using **TDD** (Test-Driven Development). This means that the tests are written before the code. This is a good practice because it forces you to think about the requirements and the design of the code before you start writing it. It also helps you to write code that is testable and to ensure that the code is working as expected.
 
-	Also, it used the MSTest framework for writing unit tests, which utilizes **attributes** heavily.
+> Also, it used the MSTest framework for writing unit tests, which utilizes **attributes** heavily.
 
 ### Attributes
 
