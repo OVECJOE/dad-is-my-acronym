@@ -90,4 +90,4 @@ Console.WriteLine(s); // Output: é
 
 Hence, any code point with a value greater than **65,535** is represented by a pair of `char` values. This is known as a _surrogate pair_. The standard defines rules for mapping code points to surrogate pairs in a way that the resulting code points have values in the range **0xD800** to **0xDFFF**, which are reserved for surrogate pairs.
 
-> The .NET class library provides a StringInfo class that can help you work with surrogate pairs. Even .NET 3.0 introduced a new type called `Rune` to simplify working with multicode-unit sequences.
+> The .NET class library provides a `StringInfo` class that can help you work with surrogate pairs. Even .NET 3.0 introduced a new type called `Rune` to simplify working with multicode-unit sequences.
