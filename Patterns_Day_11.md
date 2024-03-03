@@ -80,7 +80,7 @@ Though this looks like it consists of two type patterns, it is actually made up 
 
 > Crazy right? 😅
 
-Though a positional patter consisting of two type patterns may resemble deconstruction, the behavior is different. Such positional pattern performs three checks:
+Though a positional pattern consisting of two type patterns may resemble deconstruction, the behavior is different. Such positional pattern performs three checks:
 
 ```csharp
 case (int x, int y):
